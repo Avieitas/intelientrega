@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Velocímetro com o ponteiro no "vale a pena". Zona segura do ícone adaptativo: círculo de 66dp no centro. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:pathData="M31,66 A25,25 0 1,1 77,66"
+        android:strokeColor="#17130A" android:strokeWidth="8" android:strokeLineCap="round" android:fillColor="#00000000" />
+    <path android:pathData="M54,64 L68,44"
+        android:strokeColor="#17130A" android:strokeWidth="7" android:strokeLineCap="round" android:fillColor="#00000000" />
+    <path android:pathData="M54,64 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" android:fillColor="#17130A" />
+    <path android:pathData="M43,76 L65,76" android:strokeColor="#17130A" android:strokeWidth="5" android:strokeLineCap="round" android:fillColor="#00000000" />
+</vector>

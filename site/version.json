@@ -1,0 +1,8 @@
+{
+  "versionCode": 5,
+  "versionName": "1.0.3",
+  "notes": "Agora dá para atualizar pelo próprio app.",
+  "pageUrl": "https://intelientrega.vercel.app/#baixar",
+  "apkUrl": "https://intelientrega.vercel.app/baixar/intelientrega-1.0.3.apk",
+  "sha256": "30d94dccfcff864559ae0a7e39616e3f2328cbf0e6c7363a96c1cf3cda381cd0"
+}

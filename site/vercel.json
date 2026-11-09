@@ -1,0 +1,21 @@
+{
+  "redirects": [
+    { "source": "/baixar", "destination": "/baixar/intelientrega-1.0.3.apk", "permanent": false },
+    { "source": "/apk", "destination": "/baixar/intelientrega-1.0.3.apk", "permanent": false },
+    { "source": "/baixar/vale-a-corrida-:v.apk", "destination": "/baixar/intelientrega-1.0.3.apk", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/c/:cupom", "destination": "/index.html" }
+  ],
+  "headers": [
+    { "source": "/baixar/(.*)\\.apk", "headers": [
+      { "key": "Content-Type", "value": "application/vnd.android.package-archive" },
+      { "key": "Content-Disposition", "value": "attachment" }
+    ]},
+    { "source": "/version.json", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300" }] },
+    { "source": "/(.*)", "headers": [
+      { "key": "X-Content-Type-Options", "value": "nosniff" },
+      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+    ]}
+  ]
+}

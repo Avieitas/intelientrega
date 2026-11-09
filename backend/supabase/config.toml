@@ -1,0 +1,16 @@
+# Trecho relevante da configuração do Supabase CLI. Se o projeto ainda não tiver config.toml,
+# rode `supabase init` e copie as seções [functions.*] abaixo para o arquivo gerado.
+project_id = "intelientrega"
+
+# O Mercado Pago não envia JWT do Supabase: a autenticidade é garantida pela x-signature.
+[functions.mp-webhook]
+verify_jwt = false
+
+[functions.coupon-preview]
+verify_jwt = true
+[functions.subscription-create]
+verify_jwt = true
+[functions.subscription-status]
+verify_jwt = true
+[functions.subscription-cancel]
+verify_jwt = true

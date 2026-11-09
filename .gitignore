@@ -1,0 +1,34 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.kotlin/
+
+# Segredos do backend
+backend/supabase/functions/.env
+*.pem
+
+# Builds e arquivos grandes (o APK vai como Release no GitHub)
+*.apk
+*.aab
+site/baixar/
+
+# Chave de assinatura (fica fora do projeto, em ~/.vale-a-corrida) — nunca versionar
+*.jks
+*.keystore
+keystore.properties
+
+# Vercel e ambientes locais
+.vercel/
+.env
+.env.*
+!.env.example
+
+# Ferramentas de verificação do site
+site/.taste-skill/
+site/shots/
+supabase/.temp/
+backend/supabase/.temp/
