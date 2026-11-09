@@ -225,3 +225,8 @@ Para lançar uma versão: aumente `versionCode`/`versionName` em `app/build.grad
 APK assinado, copie para `site/baixar/intelientrega-X.apk`, atualize em `site/version.json`
 (`versionCode`, `versionName`, `notes`, `apkUrl`, `sha256`), em `site/config.js` e o destino de
 `/baixar` em `site/vercel.json`, e publique o site. Os APKs também ficam nas Releases do GitHub.
+
+## Licença
+Código sob a [licença MIT](LICENSE). O kit visual do site (`site/assets`) é do projeto
+tasteskill, também MIT (`site/assets/LICENSE-tasteskill.txt`). As fontes Sora seguem a
+SIL Open Font License. 99 e iFood são marcas de seus donos; o app não tem vínculo com eles.
